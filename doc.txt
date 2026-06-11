@@ -1,0 +1,231 @@
+AcƟvidad 2: Formulación del MVP – "De la Raíz a la
+Solución"
+1. IdenƟficación
+• Materia: Sistemas de Información II.
+• Unidad: Elicitación y Formulación de Proyectos de SoŌware.
+• Microcompetencia: Desarrolla sistemas de información de apoyo a la toma de decisiones
+para facilitar procesos de negocio mediante metodologías y lenguajes de modelado.
+• ObjeƟvo de la AcƟvidad: Elicitar los requisitos críƟcos de un problema de negocio y formular
+una solución tecnológica Ɵpo DSS a través de un análisis sistémico y un taller de Lean
+IncepƟon.
+2. El Caso de Estudio: "FlashLogisƟcs – El Caos de la Distribución"
+Contexto: La empresa "FlashLogisƟcs" se dedica a la distribución de productos de consumo masivo.
+Actualmente, sufre una crisis operaƟva: el 30% de las entregas llegan tarde, los costos de
+combusƟble se han disparado un 15% en el úlƟmo semestre y los clientes están cancelando
+contratos por falta de información.
+Detalles del Problema:
+• Manualidad: La planificación de rutas se hace cada mañana en una pizarra blanca y se copia a
+hojas de Excel manuales.
+• Puntos Ciegos: El gerente de operaciones no sabe dónde están los camiones en Ɵempo real.
+• Sobrecarga: Los despachadores pasan 4 horas al día atendiendo llamadas de clientes que
+preguntan "¿Dónde está mi pedido?".
+• Falta de Datos: No se sabe qué conductores son más eficientes ni qué rutas son las más
+problemáƟcas.
+• Consecuencia: La empresa no puede escalar y el personal está agotado (FaƟga cogniƟva y
+estrés - ODS 8 afectado).
+3. Tareas a Realizar (Proceso Autónomo)
+Paso 1: Análisis Sistémico (Árboles)
+1. Árbol de Problemas: IdenƟfiquen el problema central en el tronco, las causas raíz en las
+raíces (mínimo 4) y los efectos negaƟvos en las ramas.
+2. Árbol de Soluciones: Transformen el árbol anterior en estados posiƟvos. Las raíces se
+converƟrán en los módulos de su soŌware.
+Paso 2: Taller Lean IncepƟon Acelerado
+El equipo debe reunirse y definir:
+• Visión del Producto: Usando la dinámica "Es / No es / Hace / No hace".
+• Personas: Creen al menos 2 perfiles de usuario (Ej: El Gerente de Operaciones y el
+Conductor).
+• User Journey: Mapeen el recorrido actual vs. el recorrido ideal con su soŌware.
+• Canvas MVP: Completen el lienzo con la propuesta de valor, funcionalidades mínimas,
+métricas (KPIs) y cronograma esƟmado.
+Paso 3: Configuración de GitHub
+• Creen un repositorio para el proyecto.
+• AcƟven GitHub Projects y configuren un tablero Kanban.
+• Carguen el Canvas MVP en el archivo README.md (pueden usar una imagen o formato tabla
+Markdown).
+4. Formato del Entregable (PDF)
+El documento debe ser profesional y seguir la siguiente estructura:
+1. Portada: Integrantes del Squad y enlace al repositorio de GitHub.
+2. Proceso de Elicitación: Descripción de cómo el equipo abordó el problema (técnicas usadas).
+3. Análisis Sistémico: Gráficos del Árbol de Problemas y Árbol de Soluciones.
+4. ObjeƟvo SMART del Proyecto: (Ej: "Desarrollar un DSS que reduzca los Ɵempos de
+planificación de rutas en un 50% mediante un algoritmo de opƟmización en los próximos 3
+meses").
+5. Descripción del Producto (Canvas MVP): Imagen o tabla del canvas detallado.
+6. Conclusiones: Breve reflexión sobre el impacto en los ODS 8 y 9.
+5. Rúbrica de Evaluación AuténƟca
+Criterio de
+Validación
+Nivel: RecepƟvo (Preformal)
+Nivel: Autónomo
+(Logrado)
+Nivel: Estratégico
+(Sobresaliente)
+Análisis de
+Causa Raíz
+(Árboles)
+El árbol de problemas
+solo muestra síntomas
+superficiales y no
+IdenƟfica causas raíz
+profundas y las espeja
+correctamente en un
+árbol de soluciones viable.
+El análisis demuestra
+pensamiento sistémico
+avanzado, priorizando causas
+conecta con las
+soluciones.
+que maximizan el impacto de
+la solución.
+Formulación
+del MVP
+(Canvas)
+El Canvas es vago, no
+define métricas de
+éxito ni diferencia el
+MVP de un sistema
+final.
+Define un MVP coherente
+con objeƟvos SMART y
+métricas claras alineadas
+al problema de
+FlashLogisƟcs.
+El Canvas propone una
+solución innovadora (ODS 9)
+que opƟmiza la carga
+cogniƟva y el valor de negocio
+de forma excepcional.
+GesƟón Ágil e
+Integración
+(GitHub)
+El repositorio está
+vacío o no uƟliza
+GitHub Projects para
+organizar la visión.
+El GitHub Project refleja el
+Canvas y el README
+documenta la visión de
+manera profesional y
+clara.
+UƟliza GitHub como un
+ecosistema de colaboración
+real, con trazabilidad entre el
+Canvas, las tareas y la
+documentación.
+Notas para el Estudiante:
+• Neuro-Tip: Al definir el MVP, enfóquense en la "Raíz" que causa más dolor. Resolver un
+problema pequeño pero críƟco genera más saƟsfacción (dopamina) y confianza en el cliente
+que intentar resolver todo a medias.
+• Entrega: El PDF debe ser subido a Moodle de forma individual por cada miembro del Squad
+antes de la fecha límite. No olviden verificar que el enlace de GitHub funcione correctamente. 
+
+
+
+
+=== VISIÓN DEL PRODUCTO ===
+ES: Un DSS para optimizar rutas de distribución y dar trazabilidad en tiempo real
+NO ES: Un ERP, sistema contable ni app de maps genérica
+HACE: Planifica rutas automáticamente, rastrea camiones GPS, dashboard indicadores, notifica estado del pedido
+NO HACE: Gestiona nóminas, facturación, RRHH ni control de inventario
+
+=== USER JOURNEY – CARLOS (Gerente de Operaciones) ===
+
+| Etapa | Actual (sin software) | Ideal (con DSS) |
+|---|---|---|
+| 1. Mañana | Revisa pedidos en papel, dibuja rutas en pizarra (~1h) | Sistema optimiza rutas automáticamente con 1 clic |
+| 2. Asignación | Copia rutas a Excel, imprime y entrega a conductores | Rutas se envían directo a la app del conductor |
+| 3. Seguimiento | No sabe dónde están los camiones, llama a conductores | Ve todos los camiones en un mapa en tiempo real |
+| 4. Incidencias | Se entera hasta que el conductor regresa | Recibe alertas automáticas de retrasos o desvíos |
+| 5. Reporte | No tiene datos históricos, decide por intuición | Dashboard con KPIs: entregas a tiempo, combustible, eficiencia |
+
+=== PERSONAS ===
+
+PERSONA 1: Gerente de Operaciones – "Carlos"
+- Edad/Rol: 42 años, Gerente de Operaciones
+- Dolor principal: No sabe dónde están los camiones en tiempo real, planifica rutas a mano
+- Necesidad: Visibilidad en tiempo real de flota y automatización de planificación
+- Objetivo: Reducir entregas tardías y costos de combustible
+- Frustración: Clientes llaman todo el día, no puede escalar el negocio
+
+PERSONA 2: Conductor – "Pedro"
+- Edad/Rol: 35 años, Conductor de reparto
+- Dolor principal: Recibe rutas en papel, no tiene forma de reportar incidencias
+- Necesidad: App con navegación optimizada y comunicación con despacho
+- Objetivo: Hacer más entregas en menos tiempo sin perderse
+- Frustración: Pierde tiempo en tráfico, clientes se quejan por retrasos que no controla
+
+=== CANVAS MVP ===
+
+| Componente | Descripción |
+|---|---|
+| Problema | Ineficiencia en gestión de entregas: 30% tarde, 15% más combustible, clientes cancelan |
+| Propuesta de Valor | DSS que optimiza rutas y da trazabilidad en tiempo real, eliminando la planificación manual |
+| Módulo 1 (Raíz crítica) | Planificación Automática de Rutas – algoritmo que optimiza rutas en segundos |
+| Módulo 2 | GPS en Tiempo Real – mapa con ubicación de cada camión |
+| Módulo 3 | Seguimiento al Cliente – notificaciones automáticas de estado del pedido |
+| Módulo 4 | Dashboard de Indicadores – KPIs: entregas a tiempo, combustible, eficiencia x conductor |
+| Módulo 5 | Automatización de Procesos – asignación digital, reportes automáticos |
+| Métricas (KPIs) | - % entregas a tiempo (>95%)<br>- Costo combustible/km (reducir 15%)<br>- Llamadas de clientes/día (reducir 80%)<br>- Tiempo planificación rutas (de 1h a 1min) |
+| Cronograma | Sprint 1 (Sem 1-2): Planificación de rutas y GPS<br>Sprint 2 (Sem 3-4): Seguimiento al cliente y dashboard<br>Sprint 3 (Sem 5-6): Automatización, pruebas y deploy |
+
+=== OBJETIVO SMART ===
+
+"Desarrollar un sistema DSS para FlashLogistics que reduzca el tiempo de planificación de rutas de 1 hora a 1 minuto (98% de reducción) y disminuya las entregas tardías del 30% al 5% mediante un algoritmo de optimización y trazabilidad GPS, en un plazo de 6 semanas, utilizando un presupuesto estimado de 0 USD (herramientas open source)."
+
+=== CONCLUSIONES (ODS 8 y 9) ===
+
+El proyecto FlashLogistics DSS impacta positivamente el ODS 8 (Trabajo Decente y Crecimiento Económico) al reducir la fatiga cognitiva y el estrés del personal operativo, eliminando tareas manuales repetitivas y permitiendo que el equipo se enfoque en actividades de mayor valor. También impacta el ODS 9 (Industria, Innovación e Infraestructura) al modernizar los procesos logísticos con un DSS basado en tecnología open source, demostrando que la innovación digital es accesible incluso para empresas con recursos limitados.
+
+
+            EFECTOS
+────────────────────────
+• Entregas tardías
+• Más combustible
+• Muchas llamadas
+• Clientes perdidos
+• Estrés laboral
+• No puede escalar
+
+         PROBLEMA
+────────────────────────
+Ineficiencia en la gestión
+y distribución de entregas
+
+            CAUSAS
+────────────────────────
+• Rutas manuales
+• Sin GPS en tiempo real
+• Sin seguimiento al cliente
+• Sin indicadores
+• Procesos manuales
+
+
+
+
+            BENEFICIOS
+─────────────────────────────
+• Menos retrasos
+• Menor combustible
+• Menos llamadas
+• Clientes satisfechos
+• Menos estrés
+• Mayor crecimiento
+
+       OBJETIVO CENTRAL
+─────────────────────────────
+Optimizar la gestión y
+distribución de entregas
+mediante un DSS
+
+            SOLUCIONES
+─────────────────────────────
+• Planificación automática
+  de rutas
+
+• GPS en tiempo real
+
+• Seguimiento de pedidos
+
+• Dashboard de indicadores
+
+• Automatización de procesos

@@ -4,17 +4,31 @@ Sistema de Apoyo a la Toma de Decisiones (DSS) para optimizar la gestión y dist
 
 ## Canvas MVP
 
-| Componente | Descripción |
+| SOCIOS CLAVE | ACTIVIDADES CLAVE | PROPUESTA DE VALOR | RELACIÓN CLIENTES | SEGMENTOS DE CLIENTES |
+|---|---|---|---|---|
+| • Proveedores de GPS | • Optimización de rutas | • Reducción de entregas tardías | • Atención digital | • Empresas de distribución logística |
+| • Servicios de mapas y geolocalización | • Monitoreo de flota en tiempo real | • Disminución del consumo de combustible | • Notificaciones automáticas | • Empresas de transporte |
+| • Empresas de transporte | • Desarrollo y mantenimiento del DSS | • Trazabilidad en tiempo real de pedidos | • Seguimiento en tiempo real de pedidos | • Operadores logísticos |
+| • Equipo de desarrollo de software | • Generación de reportes e indicadores | • Menor carga operativa para despachadores | • Soporte técnico | • Empresas de consumo masivo con flotas de reparto |
+| • Proveedores de infraestructura tecnológica | • Gestión de notificaciones a clientes | • Mejor toma de decisiones mediante indicadores | | |
+| **RECURSOS CLAVE** | | | **CANALES** | |
+| • Plataforma DSS | | | • Aplicación web DSS | |
+| • Servidor y base de datos | | | • Aplicación móvil para conductores | |
+| • Sistema GPS | | | • Correo electrónico | |
+| • Aplicación móvil para conductores | | | • Notificaciones automáticas | |
+| • Equipo de desarrollo | | | | |
+
+| COSTES DE ESTRUCTURA | FUENTES DE INGRESOS |
 |---|---|
-| **Problema** | Ineficiencia en gestión de entregas: 30% tarde, 15% más combustible, clientes cancelan |
-| **Propuesta de Valor** | DSS que optimiza rutas y da trazabilidad en tiempo real, eliminando la planificación manual |
-| **Módulo 1** | Planificación Automática de Rutas |
-| **Módulo 2** | GPS en Tiempo Real |
-| **Módulo 3** | Seguimiento al Cliente |
-| **Módulo 4** | Dashboard de Indicadores (KPIs) |
-| **Módulo 5** | Automatización de Procesos |
-| **KPIs** | % entregas a tiempo (>95%), Costo combustible/km, Llamadas/día, Tiempo planificación |
-| **Cronograma** | 3 Sprints en 6 semanas |
+| • Desarrollo del software | • Suscripción mensual al sistema DSS |
+| • Infraestructura tecnológica | • Licenciamiento del software |
+| • Servicios GPS y mapas | • Servicios de implementación |
+| • Mantenimiento y soporte | • Soporte y mantenimiento |
+| • Capacitación de usuarios | |
+
+**KPIs:** % entregas a tiempo (>95%), costo combustible/km, llamadas/día (-80%), tiempo planificación (1h → 1min)
+
+**Cronograma:** Sprint 1 (sem 1-2) → Sprint 2 (sem 3-4) → Sprint 3 (sem 5-6)
 
 ## Objetivo SMART
 
@@ -22,12 +36,9 @@ Desarrollar un sistema DSS para FlashLogistics que reduzca el tiempo de planific
 
 ## Integrantes del Squad
 
-- [Nombre 1]
-- [Nombre 2]
-- [Nombre 3]
-- [Nombre 4]
+- Kehila Saharay Molina Aparicio
 
 ## Enlaces
 
-- Repositorio: https://github.com/[usuario]/flashlogistics-dss
-- GitHub Projects: [link al tablero Kanban]
+- Repositorio: https://github.com/saaay13/flashlogistics-dss
+- GitHub Projects (Kanban): https://github.com/users/saaay13/projects/6/views/1
